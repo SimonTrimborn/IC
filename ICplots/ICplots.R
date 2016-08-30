@@ -15,7 +15,16 @@ for (j in c(1,1000,10000)){
 
   dev.new()
   par(mfrow = c(3,1))
-  plot(LogLik, xlab = "Number of parameters", ylab = "LogLik")
-  plot(aic, xlab = "Number of parameters", ylab = "AIC")
-  plot(bic, xlab = "Number of parameters", ylab = "BIC")
+  plot(LogLik, xlab = "Number of parameters", ylab = "LogLik", lwd = 5, 
+    pch = 19, xaxt = "n", yaxt = "n")
+  axis(1, cex.axis = 1.5)
+  axis(2, cex.axis = 1.5)
+  plot(aic, xlab = "Number of parameters", ylab = "AIC", lwd = 5, 
+    pch = 19, xaxt = "n", yaxt = "n")
+  axis(1, cex.axis = 1.5)
+  axis(2, cex.axis = 1.5)
+  plot(bic, xlab = "Number of parameters", ylab = "BIC", lwd = 5, 
+    pch = 19, xaxt = "n", yaxt = "n")
+  axis(1, cex.axis = 1.5)
+  axis(2, cex.axis = 1.5)
 }
