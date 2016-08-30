@@ -1,0 +1,22 @@
+
+Name of Quantlet : ICplots
+
+Published in :  'Model Selection - AIC & BIC'
+
+Description : ICplots gives 3 plots which are an example how different AIC and BIC perform.
+
+Keywords : 
+ - Information Criteria
+ - AIC
+ - BIC
+ - Model Selection
+ - plot
+
+See also : 
+ - CRIXcode
+
+Author : Simon Trimborn
+
+Submitted :  Tue, August 30 2016 by Simon Trimborn
+
+Example : 3 plots with different seeds for the random numbers on which the Likelihood, AIC and BIC are computed.
